@@ -1,0 +1,71 @@
+.App {
+   margin-left: 160px; 
+   margin-right: 160px; 
+} 
+
+nav {
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-size: 40px; 
+  color: white;
+}
+
+.headIcon{
+  display:  flex ;
+  align-items: center;
+}
+
+
+
+.inputs  {
+  display: flex; 
+  align-items: center;
+  
+} 
+
+.inputs input {
+  outline: none;
+  padding-left: 10px; 
+  padding-right: 10px;
+  font-size: 17px;
+}
+.inputs button {
+  background-image: linear-gradient(45deg, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 50%, rgb(153, 51, 255) 100%);
+  padding: 13.7px 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border:  none; 
+  display: flex; 
+  cursor: pointer;
+  margin-top: 4.2px;
+
+}
+
+.trending h3 {
+  font-family: 'Poppins', sans-serif;
+  color: white;  
+  margin: 0; 
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-size: 1.7em;
+}
+.trending-gif {
+  display:  flex; 
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+}
+.trending-gif-item img {
+  cursor: pointer;
+   height: 250px;
+   width: 250px; 
+   border-radius: 5px; 
+   margin: 1px;
+}
+
+
+
+@media only screen and (max-width:856px ) {
+  .App {
+    margin-left: 20px; 
+    margin-right: 20px; 
+  }
+}
